@@ -1,0 +1,94 @@
+title-text :""
+desktop-image: "homm3.png"
+
+
+terminal-border: "50"
+terminal-width: "80%"
+terminal-height: "80%"
+message-color: "#000000"
+
++ boot_menu {
+	left = 2%
+	top = 18%
+	width = 6000
+	height = 500
+	item_spacing = 8
+	item_height = 18
+	item_color = "#ffffff"
+	selected_item_color = "#ffff00"
+}
+
+#Theme name
++ label {
+	left = 20%
+	top = 4%
+	width = 30
+	height = 30
+	text = "gomm3 0.0.1"
+	color = "#ffff00"
+}
+
+#Title
++ label {
+	left = 55%
+	top = 4%
+	width = 30
+	height = 30
+	text = "Choose your distro"
+	color = "#ffff00"
+}
+
+#Main text
++ label {
+	left = 55%
+	top = 16%
+	width = 30
+	height = 30
+	text = "Thanks for using gomm3 theme!"
+	color = "#ffffff"
+}
+
+#Timeout output
++ label {
+	id = "__timeout__"
+	left = 67%
+	top = 78%
+	height = 24
+	width = 30%
+	text = "Booting in %d seconds"
+	align = "right"
+	color = "#ffffff"	
+}
+
+#Hotkeys
++ label {
+	left = 57%
+        top = 81%
+        height = 24
+        width = 30%
+        text = "@KEYMAP_SHORT@"
+        align = "right"
+        color = "#ffffff"	
+}
+
+#Scroll Button
++ image {
+	left = 49%
+	top = 17%+4
+	file = "scrollbutton_b.png"
+}
+
+#Begin Button
++ image {
+	left = 54%+1
+	top = 91%-3
+	file = "begin_b.png"
+}
+
+#Back Button left
++ image {
+	left = 77%+1 
+        top = 91%-3
+        file = "back_b.png"
+}
+
