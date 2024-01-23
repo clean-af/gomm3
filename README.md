@@ -1,7 +1,7 @@
 # gomm3
 Heroes of Might and Magic 3 looking like grub2 theme!
 
-![]
+![gomm3-assets/gomm3_face.png]
 
 # Installation
 
