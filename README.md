@@ -19,6 +19,7 @@ sudo cp ./gomm3 /boot/grub/themes/
 - Add this line to `/etc/default/grub`
 ```
 GRUB_THEME=/boot/grub/themes/gomm3/theme.txt
+GRUB_GFXMODE=800x600
 ```
 
 - Update grub config
