@@ -1,7 +1,7 @@
 # gomm3
-Heroes of Might and Magic 3 looking like grub2 theme!
+Heroes of Might and Magic 3 looking like grub2 theme! (for 1920x1080)
 
-![]
+!(gomm3-preview)[preview.png]
 
 # Installation
 
@@ -19,6 +19,8 @@ sudo cp ./gomm3 /boot/grub/themes/
 - Add this line to `/etc/default/grub`
 ```
 GRUB_THEME=/boot/grub/themes/gomm3/theme.txt
+GRUB_BACKGROUND=/boot/grub/themes/gomm3/gomm3-assets/box_bg.png
+GRUB_GFXMODE="1920x1080"
 ```
 
 - Update grub config

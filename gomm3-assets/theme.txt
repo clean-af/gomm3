@@ -1,18 +1,24 @@
 title-text :""
-desktop-image: "homm3.png"
 
+desktop-image: "menu.png"
+terminal-box: "box_*.png"
 
-terminal-border: "50"
-terminal-width: "80%"
-terminal-height: "80%"
+#800/1920 - 0.05 = 0.36
+#600/1080 - 0.05 = 0.51
+terminal-width: "36%"
+terminal-height: "51%"
+terminal-left: "32%"
+terminal-top: "24%+4"
+terminal-border: "0"
 message-color: "#000000"
 
 + boot_menu {
-	left = 2%
-	top = 18%
-	width = 6000
+	left = 31%-8
+	top = 32%+6
+	width = 600
 	height = 500
-	item_spacing = 8
+	allign = "center"
+	item_spacing = 7
 	item_height = 18
 	item_color = "#ffffff"
 	selected_item_color = "#ffff00"
@@ -20,28 +26,18 @@ message-color: "#000000"
 
 #Theme name
 + label {
-	left = 20%
-	top = 4%
+	left = 51%+12
+	top = 24%+9
 	width = 30
 	height = 30
-	text = "gomm3 0.0.3"
-	color = "#ffff00"
-}
-
-#Title
-+ label {
-	left = 55%
-	top = 4%
-	width = 30
-	height = 30
-	text = "Choose your distro"
+	text = "gomm3 1.0.0: Choose your distro"
 	color = "#ffff00"
 }
 
 #Main text
 + label {
-	left = 55%
-	top = 16%
+	left = 51%+12
+	top = 32%+6
 	width = 30
 	height = 30
 	text = "Thanks for using gomm3 theme!"
@@ -51,8 +47,8 @@ message-color: "#000000"
 #Timeout output
 + label {
 	id = "__timeout__"
-	left = 67%
-	top = 78%
+	left = 39%-9
+	top = 65%+2
 	height = 24
 	width = 30%
 	text = "Booting in %d seconds"
@@ -62,8 +58,8 @@ message-color: "#000000"
 
 #Hotkeys
 + label {
-	left = 57%
-        top = 81%
+	left = 38%+9
+        top = 67%
         height = 24
         width = 30%
         text = "@KEYMAP_SHORT@"
@@ -73,22 +69,7 @@ message-color: "#000000"
 
 #Scroll Button
 + image {
-	left = 49%
-	top = 17%+4
+	left = 48%+26
+	top = 32%+3
 	file = "scrollbutton_b.png"
 }
-
-#Begin Button
-+ image {
-	left = 54%+1
-	top = 91%-3
-	file = "begin_b.png"
-}
-
-#Back Button left
-+ image {
-	left = 77%+1 
-        top = 91%-3
-        file = "back_b.png"
-}
-
