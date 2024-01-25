@@ -1,7 +1,7 @@
 # gomm3
 Heroes of Might and Magic 3 looking like grub2 theme! (for 1920x1080)
 
-!(gomm3-preview)[preview.png]
+![gomm3-preview](preview.png)
 
 # Installation
 
